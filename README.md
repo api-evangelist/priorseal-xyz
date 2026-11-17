@@ -64,5 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PriorSeal is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://priorseal.xyz
+PriorSeal provides a Verified Action service that proves an on‑chain Agent‑involved EVM or Solana transaction was explicitly authorized before execution and remained within its approved boundaries. The platform enables developers to integrate tamper‑proof authorization proofs into decentralized applications, enhancing security and compliance for blockchain agents.
+
+**Areas:** Company · Blockchain · Security · Verification · Decentralized
+
+## PriorSeal on APIs.io
+
+Everything profiled for PriorSeal is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/priorseal-xyz/](https://apis.io/providers/priorseal-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [PriorSeal Agent Credit Packs API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-agent-credit-packs-api/) — The Agent Credit Packs API from PriorSeal — 2 operation(s) for agent credit packs.
+- [PriorSeal Archive API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-archive-api/) — The Archive API from PriorSeal — 3 operation(s) for archive.
+- [PriorSeal Authorizations API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-authorizations-api/) — The Authorizations API from PriorSeal — 4 operation(s) for authorizations.
+- [PriorSeal Capabilities API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-capabilities-api/) — The Capabilities API from PriorSeal — 1 operation(s) for capabilities.
+- [PriorSeal Evidence API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-evidence-api/) — The Evidence API from PriorSeal — 2 operation(s) for evidence.
+- [PriorSeal Executions API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-executions-api/) — The Executions API from PriorSeal — 1 operation(s) for executions.
+- [PriorSeal Health API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-health-api/) — The Health API from PriorSeal — 2 operation(s) for health.
+- [PriorSeal Integration Readiness API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-integration-readiness-api/) — The Integration Readiness API from PriorSeal — 2 operation(s) for integration readiness.
+- [PriorSeal Intents API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-intents-api/) — The Intents API from PriorSeal — 1 operation(s) for intents.
+- [PriorSeal Observation Jobs API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-observation-jobs-api/) — The Observation Jobs API from PriorSeal — 1 operation(s) for observation jobs.
+- [PriorSeal Receipts API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-receipts-api/) — The Receipts API from PriorSeal — 3 operation(s) for receipts.
+- [PriorSeal Version API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-version-api/) — The Version API from PriorSeal — 1 operation(s) for version.
+- [PriorSeal .well Known API](https://apis.io/apis/priorseal-xyz/priorseal-xyz-well-known-api/) — The .well Known API from PriorSeal — 3 operation(s) for .well known.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PriorSeal Agentic Access](https://apis.io/agentic-access/priorseal-xyz/priorseal-xyz-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PriorSeal API Rules](https://apis.io/rules/priorseal-xyz/priorseal-xyz-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PriorSeal Domain Security](https://apis.io/security/priorseal-xyz/priorseal-xyz-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://priorseal.xyz)
+- [Documentation](https://priorseal.xyz/integrations/mcp)
+- [Privacy policy](https://priorseal.xyz/privacy)
+
+## API Evangelist rating
+
+**Kin Score 23.7** — emerging · rubric 0.28.0 · scored 2026-11-16
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 31.1 |
+| Contract governance | 65.5 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 8.5 |
+
+**Agent readiness 24.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 8.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/priorseal-xyz/](https://apis.io/providers/priorseal-xyz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PriorSeal: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/priorseal-xyz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
